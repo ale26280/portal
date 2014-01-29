@@ -1,0 +1,1904 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    overflow: hidden;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+
+.header-container {
+    border-bottom: 20px solid #e44d26;
+}
+
+.footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: #f16529;
+}
+
+.title {
+    color: white;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+
+    color: white;
+    background: #e44d26;
+}
+
+nav a:hover,
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.amarillo{
+    color: #fcd402;
+}
+
+.bg-amarillo{
+    background-color: #fcd402;
+}
+
+.blanco{
+    color: #fff;
+}
+
+.bg-blanco{
+    background-color: #fff;
+}
+
+.violeta{
+    color: #81216f;
+}
+
+.bg-violeta{
+    background-color: #81216f;
+}
+
+.verde{
+    color: #8ea82c;
+}
+
+.bg-verde{
+    background-color: #8ea82c;
+}
+
+.celeste{
+    color: #219ab0;
+}
+
+.bg-celeste{
+    background-color: #219ab0;
+}
+
+.rojo{
+    color: #d12627;
+}
+
+.bg-rojo{
+    background-color: #d12627;
+}
+
+.mainCnt{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: 
+}
+
+.menuTop{
+    width: 100%;
+    height: 100px;
+    background-color: #494948;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu-logos{
+    width: 100%;
+    height: 60px;
+}
+
+.logoBa{
+    width: 300px;
+    height: 60px;
+    text-align: right;
+    line-height: 60px;
+    float: left;
+}
+
+.logo-enTodo{
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: right;
+    display: block;
+}
+
+.logo-festivales{
+    width: 440px;
+    height: 62px;
+    margin-top: -2px;
+    background-color: #fff;
+    line-height: 60px;
+    float: right;
+    text-align: left;
+}
+
+.botonera{
+    width: auto;
+    margin-left: 50px;
+    height: 40px;
+}
+
+.botonera ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    font-family: Arial;
+    font-size: 11px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn .triangulo{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    opacity: 0;
+    border-width: 0 2px 2px 2px;
+    border-color: transparent transparent #ccc transparent;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -7px;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    color:#fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn:hover .triangulo{    
+    opacity: 1;
+    bottom: -7px;
+    border-width: 0 5px 5px 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;    
+}
+
+.btn-selected{
+    color:#fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn .triangulo-selected{
+    opacity: 1;
+    bottom: -7px;
+    border-width: 0 5px 5px 5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.botonera-iconos{
+    position: absolute;
+    z-index: 1;
+    right: 50px;
+    top: 75px;
+}
+
+.botonera-iconos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botonera-icono{
+    float: left;
+    width: 43px;
+    height: 41px;
+    cursor: pointer;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.botonera-icono .iconoTxt{
+    font-family: Arial;
+    font-size: 11px;
+    width: 43px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoFotos{
+    background-image: url('../img/btnMenuPicture.png');
+}
+
+#iconoFotos:hover{
+    background-image: url('../img/btnMenuPictureOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoFotos:hover .iconoTxt{
+    opacity: 1;
+}
+
+.iconoFotos-sel{
+    background-image: url('../img/btnMenuPictureOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* /////////////////////////// */
+
+#iconoVideos{
+    background-image: url('../img/btnMenuFilm.png');
+}
+
+#iconoVideos:hover{
+    background-image: url('../img/btnMenuFilmOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoVideos:hover .iconoTxt{
+    opacity: 1;
+}
+
+.iconoVideos-sel{
+    background-image: url('../img/btnMenuFilmOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* /////////////////////////// */
+
+#iconoMusica{
+    background-image: url('../img/btnMenuPlaylist.png');
+}
+
+#iconoMusica:hover{
+    background-image: url('../img/btnMenuPlaylistOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoMusica:hover .iconoTxt{
+    opacity: 1;
+}
+
+.iconoMusica-sel{
+    background-image: url('../img/btnMenuPlaylistOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* /////////////////////////// */
+
+#iconoEstadisticas{
+    background-image: url('../img/btnMenuPublication.png');
+}
+
+#iconoEstadisticas:hover{
+    background-image: url('../img/btnMenuPublicationOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoEstadisticas:hover .iconoTxt{
+    opacity: 1;
+}
+
+.iconoEstadisticas-sel{
+    background-image: url('../img/btnMenuPublicationOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* /////////////////////////// */
+
+#iconoClip{
+    background-image: url('../img/btnMenuClipping.png');
+}
+
+#iconoClip:hover{
+    background-image: url('../img/btnMenuClippingOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#iconoClip:hover .iconoTxt{
+    opacity: 1;
+}
+
+.iconoClip-sel{
+    background-image: url('../img/btnMenuClippingOver.png');
+    width: 53px;
+    height: 51px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/* /////////////////////////// */
+
+.sitio-cnt{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     margin-top: 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/bgCine.jpg');
+}
+
+.columnas-cnt{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.columna{
+    height: auto;
+    float: left;
+    margin-left: 3%;
+    width: 30%;
+}
+
+.columna-titulo-cnt{
+    width: 100%;
+    height: 75px;
+}
+
+.columna-titulo{
+    float: left;
+    font-family: 'itc_avant_garde_gothic_stdXLt';
+    font-size: 34px;
+    line-height: 34px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.titulo-chico{    
+    font-size: 28px;
+}
+
+.columna-icono{
+    float: right;
+}
+
+.columna-linea{
+    width: 100%;
+    margin-top: 15px;
+    height: 3px;
+    float: left;
+}
+
+.co-novedades-cnt{
+    width: 100%;
+    margin-top: 10px;
+    height: auto;
+}
+
+.co-novedades-sub{
+    font-family: Arial;
+    font-size: 12px;
+    float: left;
+}
+
+.co-novedades-vergal{
+    float: right;
+    margin-right: 5px;
+    display: block;
+}
+
+.co-novedades-icono{
+    float: right;
+    margin-right: 5px;
+    width: 30px;
+    height: 29px;
+    cursor: pointer;
+}
+
+#galVideos{
+    background-image: url('../img/btnVerGaleriaVideo.png');
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#galVideos:hover{
+    background-image: url('../img/btnVerGaleriaVideoOver.png');
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#galImg{
+    background-image: url('../img/btnVerGaleriaFotos.png');
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#galImg:hover{
+    background-image: url('../img/btnVerGaleriaFotosOver.png');
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.co-novedades-titulo{
+    font-family:'century_gothicregular';
+    font-size: 42px;
+    margin-top: 5px;
+    line-height: 45px;
+}
+
+.co-novedades-texto{
+    font-family:Arial;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.co-novedades-ver{
+    margin-top: 10px;
+}
+
+.co-novedad-cnt{
+    position: relative;
+    margin-top: 10px;
+    width: 97%;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #494948;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.co-novedad-cnt:hover{ 
+    background-color: #333;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.co-novedad-imagen{
+    margin-top: 10px;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.co-novedad-textos{
+    margin-left: 5%;
+    width: 55%;
+    float: left;
+}
+
+.co-novedad-titulo{
+    font-family:Arial;
+    font-size: 10px;
+}
+
+.co-novedad-texto{
+    font-family:Arial;
+    font-size: 19px;
+    line-height: 19px;
+}
+
+.co-ver-mas{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/icoVerMasNota.png');
+    background-repeat: no-repeat;
+    right: -8px;
+    margin-top: -8px;
+    top: 50%;
+}
+
+.cnt-festivales{
+    width: 100%;
+    height:auto;
+}
+
+.img-festival{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 120px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival:hover{
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival-selected{
+    width: 100%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival .name{
+    opacity: 0;
+}
+
+.vigente{
+    height: 200px;    
+}
+
+#fest0{
+    background-image: url('../img/Fverano.jpg');
+}
+
+#fest1{
+    background-image: url('../img/Fshakes.jpg');
+}
+
+#fest2{
+    background-image: url('../img/Fbafici.jpg');
+}
+
+#fest3{
+    background-image: url('../img/Fdanza.jpg');
+}
+
+#fest4{
+    background-image: url('../img/FTango.jpg');
+}
+
+#fest5{
+    background-image: url('../img/FPoloCirco.jpg');
+}
+
+#fest6{
+    background-image: url('../img/FMate.jpg');
+}
+
+#fest7{
+    background-image: url('../img/FJazz.jpg');
+}
+
+#fest8{
+    background-image: url('../img/FFiba.jpg');
+}
+
+#fest9{
+    background-image: url('../img/FdanzaCont.jpg');
+}
+
+#fest10{
+    background-image: url('../img/FCiudadEmer.jpg');
+}
+
+#fest11{
+    background-image: url('../img/FbaficiAnim.jpg');
+}
+
+.img-festival .fest-mas-info{
+    width: 47px;
+    height: 17px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -8px;
+    margin-right: -40px;
+    background-image: url('../img/btnMasInfo.png');
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.fest-mas-info:hover{    
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival:hover .fest-mas-info{
+    margin-right: 0px;
+}
+
+.img-festival .fest-mas-info-selected{
+    margin-right: 0px;
+}
+
+.img-festival .fest-te-convoca{
+    width: 77px;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    margin-right: -40px;
+    background-image: url('../img/icoTeConvoca.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival:hover .fest-te-convoca{    
+    margin-right: 0px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival .fest-te-convoca-selected{
+    margin-right: 0px;
+}
+
+.img-festival .fest-te-convoca:hover{
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival .fest-cartel{
+    width: 77px;
+    height: 21px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+    margin-right: -40px;
+    background-image: url('../img/icoLlamador.png');
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-size: 9px;
+    color:#fff;
+    text-align: center;
+    box-shadow: 2px 2px 5px #000;
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival .fest-cartel-selected{
+    margin-right: 0px;
+}
+
+.img-festival:hover .fest-cartel{    
+    margin-right: 0px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.img-festival .fest-cartel:hover{
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cnt-festivales img{
+    margin-top: 10px;
+}
+
+#wrapper_columna_1, #wrapper_columna_2, #wrapper_columna_3 {
+    overflow: hidden;
+}
+
+#scroller_columna_1, #scroller_columna_2, #scroller_columna_3{
+    width: 100%;
+    display: table;
+}
+
+.cnt-publicaciones{
+    margin-top: 10px;
+    height: auto;
+    background-color: #494948;
+    padding: 2%;
+    display: table;
+}
+
+.item-publi{
+    width: 31%;
+    margin-right: 3%;
+    height: 220px;
+    float: left;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.item-publi:hover{
+    background-color: #000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.no-margin{
+    margin-right: 0;
+}
+
+.item-publi .item-publi-img{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.item-publi:hover .item-publi-img{    
+    height: 145px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.item-publi .item-publi-img .item-publi-ico{
+    width: 35px;
+    height: 34px;
+    top: 50%;
+    left: 50%;
+    margin-top: -17px;
+    margin-left: -17px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('../img/icoGaleriaPublication.png');    
+}
+
+.item-publi .item-publi-titulo{
+   font-family: Arial;
+   font-size: 11px;
+   line-height: 11px;
+   margin-top: 10px;
+   margin-left: 2%;
+}
+
+.item-publi .item-publi-texto{
+   font-family: Arial;
+   font-size: 11px;
+   line-height: 11px;
+   color: #000;
+   margin-left: 2%;
+   margin-top:10px;
+   -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.item-publi:hover .item-publi-texto{   
+   color: #fff;
+   -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cnt-multimedia{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    height: auto;
+    display: table;
+}
+
+.item-multimedia{
+    position: relative;
+    width: 95%;
+    height: 150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 1px;
+}
+
+.item-multimedia:hover{    
+    height: 210px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid #219ab0;      
+}
+
+.item-multimedia .item-multimedia-titulo{
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10px;
+    background-color: #494948;
+    left: -100px;
+    top: 10px;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.item-multimedia:hover .item-multimedia-titulo{    
+    left: 10px;    
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.item-multimedia .item-multimedia-video{
+    width: 39px;
+    height: 39px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url('../img/icoGaleriaFilm.png');
+}
+
+.item-multimedia .item-multimedia-mas{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url('../img/icoVerMasFoto.png');
+    background-repeat: no-repeat;
+    right: -8px;
+    margin-top: -8px;
+    top: 50%;
+    z-index: 1;
+}
+
+.footer{
+    background-color: #ffd300;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    height: 35px;
+    line-height: 35px;
+}
+
+.logo-Ba-Footer{
+    float: left;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.texto-footer{
+    float: left;
+    margin-right: 20px;
+    font-family: Arial;
+    color: #000;
+    font-size: 12px;
+    line-height: 35px;
+}
+
+.texto-footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.ins-footer{
+    float: right;
+    margin-right: 20px;
+    line-height: 35px;
+}
+
+.festivalles-full{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    position: absolute;
+    margin-top: -100%;
+    overflow: hidden;
+}
+
+#scrollerFestFull{
+    position: relative;
+}
+
+.cnt-fest-full{
+    margin-left: 4%;
+    padding-top: 1%;
+    width: 96%;
+    height: auto;
+    display: table;
+    position: relative;
+}
+
+.cerrar-fest{
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    cursor: pointer;
+    right: 2%;
+    top: 5%;
+    z-index: 1;
+    background-image: url('../img/btnCerrar.png');
+}
+
+.cnt-fest-full ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cnt-fest-full ul li{
+    cursor: pointer;
+  width: 22%;
+  height: 195px;
+  margin-right: 2%;
+  float: left;
+  margin-bottom: 2%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#scrollerFestFull ul li:hover{
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+/*/////////////PLAYLIST////////////////*/
+/*/////////////PLAYLIST////////////////*/
+/*/////////////PLAYLIST////////////////*/
+
+.playlist{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-image: url('../img/bgPlaylist.jpg');
+    display: none;
+}
+
+.cnt-top-playlist{
+    height: auto;
+    display: table;
+}
+
+.cnt-bot-iconos{
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;   
+    position: relative;
+    width: 27%;
+}
+
+.icon-inside{
+    top:0px;
+    left:0px;
+}
+
+.cnt-tags{
+    float: left;
+    margin-left: 1%;
+    margin-top: 20px;
+    width: 65%;
+}
+
+.tag {
+  font-family: Arial;
+  font-size: 11px;
+  color: #fff;
+  padding: 5px;
+  min-width: 67px;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  background-color: #494948;
+}
+
+.tag:hover {
+  color: #fcd402;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.cnt-musica-vivo{
+    display: table;
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+
+.cnt-arma-playlist{
+    display: table;
+    width: 60%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 20px;
+}
+
+.musica-items{
+}
+
+.musica-item{
+    float: left;
+    width: 32%;
+    margin-right: 1%;
+    height: 100px;
+    margin-top: 1%;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;    
+    position: relative;
+}
+
+.no-top{
+    margin-top: 0%;
+}
+
+.musica-item .blanco{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 70%;
+    margin-top: 100%;
+    background-color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.musica-item:hover .blanco{    
+    margin-top: 30%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.texto-musica-item{
+    color: #000;
+    font-size: 11px;
+    line-height: 11px;
+    width: 95%;
+    margin-left: 2%;
+}
+
+.musica-item .icono-musica-item{
+    width: 43px;
+    height: 41px;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    margin-top: -21px;
+    margin-left: -21px;    
+    position: absolute;
+    z-index: 2;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.musica-item:hover .icono-musica-item{
+    top: 25%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.musica-item .l{
+    left: 30%;
+}
+
+.musica-item .r{
+    left: 70%;
+}
+
+.icono-playlist{
+    background-image: url('../img/icoGaleriaAudio.png');
+}
+
+.icono-play{
+    background-image: url('../img/icoGaleriaFilm.png');
+}
+
+.icono-mas{
+    background-image: url('../img/btnPlaylistIn.png');
+}
+
+.icono-menos{
+    background-image: url('../img/btnPlaylistOut.png');
+}
+
+.cnt-grilla{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #494948;
+}
+
+.grilla-titulos{
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #219ab0;
+}
+
+.grilla-titulo{
+    width: 31%;
+    line-height: 49px;
+    font-size: 11px;
+    font-family: Arial;
+    color: #fff;
+    float: left;
+    padding-left: 2%;
+}
+
+.grilla-titulo .flechitas{
+    float: right;    
+    background-image: url('../img/btnPlaylistOrderList.png');
+    width: 10px;
+    height: 12px;
+    margin-top: 18px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.grilla-item{
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #219ab0;
+}
+
+.par{
+   background-color: #424241;
+}
+
+.grilla-item-columna{
+    width: 31%;
+    line-height: 35px;
+    font-size: 11px;
+    font-family: Arial;
+    color: #fff;
+    float: left;
+    padding-left: 2%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.grilla-item-columna .menu{
+    float: right;    
+    background-image: url('../img/btnPlaylistDrag.png');
+    width: 13px;
+    height: 13px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.grilla-item-columna .menu:hover{       
+    background-image: url('../img/btnPlaylistDragOver.png');
+}
+
+.grilla-item-columna-icon{
+    width: 12%;
+    line-height: 35px;
+    font-size: 9px;
+    font-family: Arial;
+    float: left;
+    padding-left: 1%;
+}
+
+.grilla-item-columna-texto{
+    width: 18%;
+    line-height: 35px;
+    font-size: 9px;
+    font-family: Arial;
+    float: left;
+    padding-left: 1%;
+}
+
+.grilla-icon{
+    width: 22px;
+    height: 21px;
+    float: left;
+    cursor: pointer;
+    margin-right: 1px;
+    margin-top: 7px;
+}
+
+.play{
+    background-image: url('../img/btnPlaylistControlPlay.png');
+}
+
+.play:hover{
+    background-image: url('../img/btnPlaylistControlPlayOver.png');
+}
+
+.menos{
+    background-image: url('../img/btnPlaylistControlOut.png');
+}
+
+.menos:hover{
+    background-image: url('../img/btnPlaylistControlOutOver.png');
+}
+
+.lupa{
+    background-image: url('../img/btnPlaylistControlView.png');
+}
+
+.lupa:hover{
+    background-image: url('../img/btnPlaylistControlViewOver.png');
+}
+
+#wrapperMusicaVivo{    
+    overflow: hidden;
+}
+
+#wrapperPlaylist{
+    overflow: hidden;
+}
+
+.evento-amp-tab{
+    font-family: Arial;
+    font-size: 10px;
+    float: left;
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.evento-amp-tab:hover{
+    background-color: #81216f;
+}
+
+.evento-amp-tab-select{
+    background-color: #81216f;
+}
+
+.fest-amp-texto{
+    font-family:Arial;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.fest-amp-texto a{
+    color: #81216f;
+    text-decoration: none;
+}
+
+.menu-download{
+    border-bottom: 1px solid #81216f;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    display: table;
+}
+
+.download-tab{
+    font-family: Arial;
+    font-size: 10px;
+    float: left;
+    padding: 2px;
+    cursor: pointer;
+    margin-left: 6px;
+    color: #81216f;
+}
+
+.download-tab:hover{
+    background-color: #81216f;
+    color: #fff;
+}
+
+.download-tab-select{
+    background-color: #81216f;
+    color: #fff;
+}
+
+.download-listado{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.download-listado-item{    
+    cursor: pointer;
+    border-bottom: 1px solid #2a0b23;
+}
+
+.download-listado-item-texto{
+    font-family: Arial;
+    font-size: 13px;
+    padding: 2px;
+    color: #fff;
+    float: left;
+}
+
+.clip-icon{
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url('../img/clip.png');
+}
+
+.no-left{
+    margin-left: 0px;
+}
+
+.fest-nav-up{
+    width: 27px;
+    height: 26px;
+    background-image: url('../img/arriba.png');
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.fest-nav-down{
+    width: 27px;
+    height: 26px;
+    background-image: url('../img/abajo.png');
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float: left;
+        width: 27%;
+        margin: 0 1.7%;
+        padding: 25px 2%;
+        margin-bottom: 0;
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        float: left;
+        width: 57%;
+    }
+
+    .main aside {
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

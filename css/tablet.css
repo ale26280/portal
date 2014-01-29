@@ -1,0 +1,70 @@
+@media screen and (min-width: 611px) and (max-width: 959px) {
+
+    .logoBa{
+        width: 265px;
+        height: 60px;
+        text-align: right;
+        line-height: 60px;
+        float: left;
+    }
+
+    .logo-enTodo{        
+        display: none;
+    }
+    .columna-titulo{        
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .menuTop{        
+        height: 135px;
+    }
+
+    .botonera{        
+        margin-left: 10px;
+        height: 80px;
+    }
+
+    .botonera ul {
+      width: 370px;
+    }
+
+    .botonera-iconos{
+        top: 105px;
+    }
+
+    .columnas-cnt{
+        margin-top: 70px;
+    }
+
+    .img-festival .fest-mas-info{        
+        margin-right: -30px;       
+    }
+
+    .img-festival .fest-te-convoca{        
+        margin-right: -30px;        
+    }
+
+    .img-festival .fest-cartel{        
+        margin-right: -30px;        
+    }
+
+    .co-novedades-vergal{        
+        display: none;
+    }
+
+    .co-novedades-titulo{       
+        font-size: 30px;
+        line-height: 31px;
+    }
+    .co-novedad-texto{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .cnt-fest-full ul li{      
+      width: 30%;      
+      margin-right: 2%;      
+      margin-bottom: 2%;      
+    }
+}
